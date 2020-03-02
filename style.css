@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+}
+
+div.practice-layout {
+  position: relative;
+  background-color: skyblue;
+  left: 100px;
+  top: 100px;
+  width: 300px;
+  height: 300px;
+}
+/* Static positioned elements are not affected by the top, bottom, left, and right properties. */
+
+span.left-top {
+  position: absolute;
+  background-color: rosybrown;
+  left: 100px;
+  top: 100px;
+}
+
+span.right-bottom {
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+}
+
+span.left-bottom {
+  position: absolute;
+  left: 20px;
+  bottom: 100px;
+  background-color: greenyellow;
+}
