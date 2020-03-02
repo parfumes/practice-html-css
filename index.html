@@ -3,7 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS practice</title>
   </head>
-  <body></body>
+  <style>
+    div.red-container span {
+      background-color: red;
+    }
+    div#center span {
+      text-align: center;
+      padding: 10px;
+      color: gray;
+    }
+    div span.green {
+      background-color: greenyellow;
+    }
+    div span#center-pink {
+      text-align: center;
+      padding: 10px;
+      color: pink;
+    }
+  </style>
+  <body>
+    <div class="red-container">
+      <span>
+        div .red-container 내의 span 입니다.
+      </span>
+    </div>
+    <div id="center">
+      <span>
+        div #center 내의 span 입니다.
+      </span>
+    </div>
+    <div>
+      <span class="green">
+        div 내의 span.green 입니다.
+      </span>
+    </div>
+    <div>
+      <span id="center-pink">
+        div 내의 span#center-pink 입니다.
+      </span>
+    </div>
+    <div>
+      <span>
+        .red-container 내에 있지 않은 span 입니다.
+      </span>
+    </div>
+    <div>
+      <span>
+        #center 내에 있지 않은 span 입니다.
+      </span>
+    </div>
+  </body>
 </html>
