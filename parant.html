@@ -31,6 +31,30 @@
       padding: 10px;
       color: red;
     }
+
+    div span#center-red {
+      text-align: center;
+      padding: 0;
+      color: white;
+      background-color: pink;
+    }
+
+    div.red-container span.not-red {
+      text-align: center;
+      color: white;
+      background-color: purple;
+    }
+
+    div span.center-black {
+      text-align: center;
+      color: white;
+      background-color: black;
+    }
+    span.center-lime {
+      text-align: center;
+      background-color: lime;
+    }
+    
   </style>
 
   <body>
@@ -72,16 +96,16 @@
       </span>
     </div>
     <div class="red-container">
-      <span>
+      <span class="not-red">
         .red-container 내에 있지 않은 span 입니다.
       </span>
     </div>
     <div>
-      <span>
+      <span class="center-black">
         #center 내에 있지 않은 span 입니다.
       </span>
     </div>
-    <span>
+    <span class="center-lime">
       div 내에 있지 않은 span입니다.
     </span>
   </body>
